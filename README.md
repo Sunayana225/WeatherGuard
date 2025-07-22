@@ -59,7 +59,7 @@ Experience WeatherGuard in action:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Sunayana225/WeatherGuard.git
+   git clone https://github.com/team-npc/WeatherGuard.git
    cd WeatherGuard
    ```
 
@@ -379,9 +379,10 @@ test: add safety feature tests
 
 ### Getting Help
 - **📖 Documentation**: Check this README
-- **🐛 Issues**: [GitHub Issues](https://github.com/Sunayana225/WeatherGuard/issues)
-- **💬 Discussions**: [GitHub Discussions](https://github.com/Sunayana225/WeatherGuard/discussions)
-- **📧 Email**: yakkalasunayana1605@gmail.com
+- **🐛 Issues**: [GitHub Issues](https://github.com/team-npc/WeatherGuard/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/team-npc/WeatherGuard/discussions)
+- **📧 Personal**: yakkalasunayana1605@gmail.com
+- **📧 Team**: teamnpcars@gmail.com
 
 ## 🔮 Roadmap
 
