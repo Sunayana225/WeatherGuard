@@ -18,14 +18,14 @@ class WeatherService {
     openweather: {
       name: 'OpenWeatherMap',
       baseUrl: process.env.OPENWEATHER_BASE_URL || 'https://api.openweathermap.org/data/2.5',
-      apiKey: process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY || 'aa52feefad1f400a14fa236928f73356',
+      apiKey: process.env.NEXT_PUBLIC_OPENWEATHER_API_KEY || '',
       timeout: 8000,
       rateLimit: { requestsPerMinute: 60, lastReset: Date.now(), currentCount: 0 }
     },
     weatherapi: {
       name: 'WeatherAPI',
       baseUrl: process.env.WEATHERAPI_BASE_URL || 'https://api.weatherapi.com/v1',
-      apiKey: process.env.NEXT_PUBLIC_WEATHERAPI_KEY || 'eb1a6c739b214398b34185320252906',
+      apiKey: process.env.NEXT_PUBLIC_WEATHERAPI_KEY || '',
       timeout: 8000,
       rateLimit: { requestsPerMinute: 100, lastReset: Date.now(), currentCount: 0 }
     },
@@ -39,7 +39,7 @@ class WeatherService {
     meteostat: {
       name: 'Meteostat',
       baseUrl: 'https://meteostat.p.rapidapi.com',
-      apiKey: process.env.NEXT_PUBLIC_RAPIDAPI_KEY || '7c2813243fmsh6e0aebd6851a17lp1fe2d7jsn6f8f0f90120d',
+      apiKey: process.env.NEXT_PUBLIC_RAPIDAPI_KEY || '',
       timeout: 10000,
       rateLimit: { requestsPerMinute: 2000, lastReset: Date.now(), currentCount: 0 }
     },

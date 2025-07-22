@@ -157,6 +157,10 @@ npm run server:dev # Backend only
 
 ## ⚙️ Configuration
 
+### 🔒 Security Notice
+
+**Important**: This repository has been secured. All API keys have been removed from the source code and must now be provided via environment variables. See our [Security Policy](SECURITY.md) for more information.
+
 ### API Keys (Optional)
 
 WeatherGuard works out of the box, but for enhanced features you can add API keys:
