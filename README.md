@@ -1,47 +1,53 @@
-# WeatherGuard - Emergency Safety Platform
+# WeatherGuard 🌩️
 
-A comprehensive emergency preparedness and family safety application that combines real-time weather monitoring, location tracking, and emergency communication tools. Built for the Startup Competition with global coverage and enterprise-grade reliability.
+A comprehensive emergency preparedness and family safety application that combines real-time weather monitoring, location tracking, and emergency communication tools. Stay safe, stay connected, and stay prepared.
 
-## 🎬 Recent Updates (Latest)
+## 🚀 Live Demo
 
-### ✅ Website Branding & Messaging Improvements
-- **Consistent Logo**: Unified WeatherGuard logo across header, footer, and dashboard
-- **Honest Messaging**: Removed fake user statistics, replaced with real technical capabilities
-- **YouTube Demo**: Embedded interactive demo video with autoplay functionality
-- **Simplified CTA**: Single "Try Live Demo" button for better user experience
-- **Professional Footer**: Added comprehensive footer to dashboard page matching homepage
+Experience WeatherGuard in action:
+- **🌐 Live Demo**: [https://weatherguard-demo.vercel.app](http://localhost:3000)
+- **🎬 Interactive Demo**: Watch our embedded demonstration
+- **🌍 Global Coverage**: Test with locations like "Tokyo", "London", "Sydney", "Eiffel Tower"
+- **🚨 Emergency Features**: Activate emergency mode and safety check-ins
+- **📱 Mobile Optimized**: Perfect for on-the-go emergency use
 
-### ✅ Technical Enhancements
-- **Bold Emergency Messaging**: "Don't Wait for the Next Emergency" prominently displayed
-- **Platform Capabilities**: Highlighting Global Coverage, Multi-API Resilience, Offline Functionality
-- **Responsive Design**: Optimized for all devices with consistent branding
-- **Navigation Improvements**: Seamless navigation between homepage and dashboard
+## ✨ Key Features
 
-## � Live Demo
+### 🗺️ Interactive Weather Map
+- **Real-time Weather Radar**: Live weather data with multiple API sources
+- **Location Markers**: View saved locations and live positions
+- **Alert Zones**: Visual weather warnings and disaster event areas
+- **Global Coverage**: Works anywhere in the world
 
-**Try the platform now**: [http://localhost:3000](http://localhost:3000)
-- **Interactive Demo Video**: Watch the embedded YouTube demonstration
-- **Global Location Search**: Test with "Tokyo", "London", "Sydney", "Eiffel Tower"
-- **Emergency Mode**: Click the 🚨 button to activate emergency features
-- **Family Safety Features**: Experience location sharing and safety check-ins
-- **Offline Functionality**: Disable network to test offline capabilities
+### 📍 Smart Location Management
+- **Save Important Places**: Home, work, school, and family locations
+- **Live Location Sharing**: Plan real-time location sharing with contacts
+- **Privacy Controls**: Granular permissions for each contact
+- **Emergency Override**: Automatic location sharing during alerts
 
-## �🌟 Features
+### 👥 Emergency Contact Network
+- **Contact Management**: Organize family and emergency contacts
+- **Relationship Categories**: Family, friends, emergency services
+- **Permission Settings**: Control who can see your location and when
+- **Quick Communication**: Direct contact during emergencies
 
-### Core Functionality
-- **Interactive Weather Map**: Real-time weather radar with multiple API fallbacks
-- **Location Management**: Save important places and plan live location sharing
-- **Emergency Contacts**: Manage family and emergency contact networks
-- **Safety Check-ins**: Quick status updates during emergencies
-- **Real-time Alerts**: Weather warnings and disaster notifications
-- **Emergency Broadcasting**: Automated notifications to emergency contacts
+### 🆘 Safety Check-ins
+- **One-Tap Updates**: Quick "I'm Safe" status broadcasts
+- **Emergency Alerts**: Send help requests with location
+- **Message Customization**: Add context to your status
+- **Auto-Notifications**: Contacts receive instant updates
 
-### Technical Highlights
-- **API Resilience**: Multiple weather data sources with automatic failover
-- **Mobile-First Design**: Optimized for emergency use on mobile devices
-- **Privacy Controls**: Granular location sharing permissions
-- **Offline Capability**: Critical features work without internet connection
-- **Real-time Updates**: WebSocket-based live data synchronization
+### ⚠️ Real-time Alerts
+- **Weather Warnings**: Severe weather and storm alerts
+- **Disaster Monitoring**: Earthquakes, floods, and other emergencies  
+- **Browser Notifications**: Alerts even when app is closed
+- **Severity Filtering**: Focus on critical alerts only
+
+### 🔒 Privacy & Security
+- **Data Control**: You own your location data
+- **Temporary Sharing**: Set time limits on location access
+- **Precision Settings**: Share exact or approximate location
+- **Offline Mode**: Critical features work without internet
 
 ## 🚀 Quick Start
 
@@ -53,8 +59,8 @@ A comprehensive emergency preparedness and family safety application that combin
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd weather-safety-app
+   git clone https://github.com/Sunayana225/WeatherGuard.git
+   cd WeatherGuard
    ```
 
 2. **Install dependencies**
@@ -62,10 +68,10 @@ A comprehensive emergency preparedness and family safety application that combin
    npm install
    ```
 
-3. **Set up environment variables**
+3. **Set up environment variables (optional)**
    ```bash
    cp .env.example .env.local
-   # Edit .env.local with your API keys (optional for demo)
+   # Edit .env.local with your API keys for enhanced features
    ```
 
 4. **Start the development server**
@@ -75,225 +81,175 @@ A comprehensive emergency preparedness and family safety application that combin
 
 5. **Open the application**
    - Navigate to http://localhost:3000
-   - Click "Launch Demo" to access the main dashboard
-   - Visit http://localhost:3000/meteostat-demo to test Meteostat integration
+   - Click "Try Live Demo" to access the dashboard
+   - For enhanced weather data, add API keys to `.env.local`
 
-### Running the Backend API (Optional)
+### Running with Full Backend
 
-For full functionality with real data:
+For complete functionality with real-time data:
 
 ```bash
-# Start the backend server
-npm run server:dev
-
-# Or run both frontend and backend
+# Start both frontend and backend
 npm run dev:full
+
+# Or run separately
+npm run dev        # Frontend only
+npm run server:dev # Backend only
 ```
 
-## 📱 Usage Guide
+## 📱 How It Works
 
 ### Getting Started
-1. **Launch the App**: Visit the homepage and click "Launch Demo"
-2. **Explore the Map**: Use the interactive map to view weather and location data
-3. **Add Locations**: Save important places like home, work, and family locations
-4. **Set Up Contacts**: Add emergency contacts and configure sharing permissions
-5. **Test Safety Features**: Try the safety check-in system
+1. **🏠 Homepage**: Visit WeatherGuard and explore the features overview
+2. **🚀 Launch Demo**: Click "Try Live Demo" to access the dashboard
+3. **🗺️ Explore Map**: Use the interactive map to view weather and location data
+4. **📍 Add Locations**: Save important places like home, work, and family locations
+5. **👥 Setup Contacts**: Add emergency contacts and configure sharing permissions
+6. **🆘 Test Safety Features**: Try the safety check-in system
 
-### Key Features
+### Using the Interactive Map
+- **🌦️ Weather Layers**: Toggle weather radar and traffic overlays
+- **📍 Location Markers**: View saved locations and live positions
+- **⚠️ Alert Zones**: See weather warnings and disaster areas
+- **🔍 Search**: Find any location worldwide using the search bar
 
-#### Interactive Map
-- **Weather Layers**: Toggle weather radar and traffic overlays
-- **Location Markers**: View saved locations and live positions
-- **Alert Zones**: See weather warnings and disaster event areas
-- **Search**: Find locations using the search bar
+### Managing Locations
+- **📌 Static Locations**: Save and categorize important places
+- **📱 Live Sharing**: Plan real-time location sharing with contacts
+- **🔒 Privacy Controls**: Set permissions for each contact individually
+- **🚨 Emergency Mode**: Automatic location sharing during alerts
 
-#### Location Management
-- **Static Locations**: Save and categorize important places
-- **Live Sharing**: Plan real-time location sharing with contacts
-- **Privacy Controls**: Set granular permissions for each contact
-- **Emergency Override**: Automatic location sharing during alerts
+### Safety & Emergency Features
+- **✅ Quick Check-ins**: One-tap "I'm Safe" updates to all contacts
+- **🆘 Emergency Alerts**: Send help requests with your current location
+- **💬 Custom Messages**: Add details to your status updates
+- **🔔 Real-time Notifications**: Instant alerts for weather and emergencies
 
-#### Safety Check-ins
-- **Quick Status**: One-tap "I'm Safe" updates
-- **Emergency Alerts**: Send help requests to emergency contacts
-- **Location Included**: Optionally share current location
-- **Message Details**: Add context to status updates
+## 🏗️ Technology Stack
 
-#### Emergency Alerts
-- **Real-time Notifications**: Instant weather and disaster alerts
-- **Severity Filtering**: Focus on extreme or severe alerts
-- **Browser Notifications**: Alerts even when app is closed
-- **Emergency Actions**: Quick access to safety check-ins
+### Frontend
+- **Next.js 15**: React framework with App Router
+- **React 19**: Modern React with latest features
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Responsive styling
+- **React Leaflet**: Interactive maps
+- **Lucide React**: Beautiful icons
 
-## 🏗️ Architecture
+### Backend
+- **Node.js**: Server runtime
+- **Express.js**: Web framework
+- **SQLite**: Local database
+- **TypeScript**: Type-safe backend code
 
-### Frontend (Next.js/React)
-```
-src/
-├── app/                    # Next.js app router pages
-├── components/             # Reusable React components
-│   ├── Map/               # Interactive map components
-│   ├── Locations/         # Location management
-│   ├── Contacts/          # Contact management
-│   └── Safety/            # Emergency and safety features
-├── lib/                   # Utilities and services
-│   ├── database.ts        # Database connection
-│   ├── models/            # Data models and CRUD operations
-│   └── services/          # External API integrations
-└── types/                 # TypeScript type definitions
-```
+### APIs & Services
+- **OpenWeatherMap**: Primary weather data
+- **WeatherAPI**: Backup weather source
+- **National Weather Service**: US weather alerts
+- **USGS**: Earthquake data
+- **Browser Geolocation**: Location services
 
-### Backend (Express.js)
-```
-server/
-├── index.ts              # Main server file
-└── routes/               # API route handlers
-    ├── users.ts          # User management
-    ├── locations.ts      # Location CRUD
-    ├── contacts.ts       # Contact management
-    ├── safety.ts         # Safety check-ins
-    ├── weather.ts        # Weather API integration
-    └── disasters.ts      # Disaster event handling
-```
+### Key Libraries
+- **React Joyride**: Interactive tours
+- **Recharts**: Data visualization
+- **Firebase**: Authentication ready
+- **Jest**: Testing framework
+- **ESLint**: Code quality
 
-### Database (SQLite)
-- **Users**: User accounts and preferences
-- **Locations**: Static and live location data
-- **Contacts**: Emergency contact networks
-- **Safety**: Check-ins and emergency events
-- **Alerts**: Weather and disaster notifications
+## ⚙️ Configuration
 
-## 🔧 Configuration
+### API Keys (Optional)
 
-### Environment Variables Setup
+WeatherGuard works out of the box, but for enhanced features you can add API keys:
 
-1. **Copy the environment template:**
+1. **Copy environment template:**
    ```bash
    cp .env.example .env.local
    ```
 
-2. **Edit `.env.local` with your API keys:**
+2. **Add your API keys to `.env.local`:**
    ```bash
-   # Weather API Keys
-   OPENWEATHER_API_KEY=your_openweather_api_key_here
-   WEATHERAPI_KEY=your_weatherapi_key_here
-
-   # Next.js Public Environment Variables
-   NEXT_PUBLIC_OPENWEATHER_API_KEY=your_openweather_api_key_here
-   NEXT_PUBLIC_WEATHERAPI_KEY=your_weatherapi_key_here
-
-   # Firebase Configuration (get from Firebase Console)
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_api_key_here
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
+   # Weather APIs (for enhanced weather data)
+   NEXT_PUBLIC_OPENWEATHER_API_KEY=your_openweather_key
+   NEXT_PUBLIC_WEATHERAPI_KEY=your_weatherapi_key
+   
+   # Firebase (for authentication features)
+   NEXT_PUBLIC_FIREBASE_API_KEY=your_firebase_key
+   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
    NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project_id.firebasestorage.app
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your_firebase_app_id
-   NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
-
-   # Application Settings
-   NODE_ENV=development
-   PORT=3000
-   DATABASE_PATH=./weather-safety.db
    ```
 
-⚠️ **Important:** Never commit `.env.local` to version control. It contains sensitive API keys.
+### Getting API Keys
 
-### GitHub Repository Setup
+1. **OpenWeatherMap** (Free tier: 1,000 calls/day)
+   - Sign up at [openweathermap.org](https://openweathermap.org/api)
+   - Get instant API access
 
-If you're setting up this repository:
+2. **WeatherAPI** (Free tier: 1M calls/month)
+   - Sign up at [weatherapi.com](https://www.weatherapi.com/)
+   - Generous free tier
 
-1. **For repository owners:**
-   ```bash
-   git remote add origin https://github.com/team-npc/WeatherGuard.git
-   git push -u origin master
-   ```
+3. **Firebase** (Optional, for user accounts)
+   - Create project at [firebase.google.com](https://firebase.google.com/)
+   - Enable Authentication
 
-2. **For contributors without write access:**
-   - Fork the repository to your GitHub account
-   - Clone your fork:
-     ```bash
-     git clone https://github.com/YOUR_USERNAME/WeatherGuard.git
-     ```
-   - Set up the original repository as upstream:
-     ```bash
-     git remote add upstream https://github.com/team-npc/WeatherGuard.git
-     ```
+> **Note**: WeatherGuard includes fallback weather data, so API keys are optional for basic functionality.
 
-3. **Using Personal Access Token (if needed):**
-   - Generate a token at: https://github.com/settings/tokens
-   - Use token as password when pushing:
-     ```bash
-     git push https://YOUR_USERNAME:YOUR_TOKEN@github.com/team-npc/WeatherGuard.git
-     ```
+## 🧪 Development
 
-### API Keys Setup
+### Available Scripts
 
-1. **OpenWeatherMap** (Primary weather data)
-   - Sign up at https://openweathermap.org/api
-   - Get free API key (1000 calls/day)
-   - Add to `OPENWEATHER_API_KEY`
-
-2. **WeatherAPI** (Backup weather data)
-   - Sign up at https://www.weatherapi.com/
-   - Get free API key (1M calls/month)
-   - Add to `WEATHERAPI_KEY`
-
-3. **RapidAPI** (For Meteostat historical data)
-   - Sign up at https://rapidapi.com/
-   - Subscribe to Meteostat API
-   - Add to `RAPIDAPI_KEY`
-
-4. **National Weather Service** (No key required)
-   - Free government API for US weather alerts
-   - Automatically used as tertiary fallback
-
-## 🧪 Testing
-
-### Running Tests
 ```bash
-# Run all tests
-npm test
+# Development
+npm run dev              # Start development server
+npm run dev:full         # Start frontend + backend
+npm run server:dev       # Start backend only
 
-# Run tests in watch mode
-npm run test:watch
+# Production
+npm run build            # Build for production
+npm start               # Start production server
 
-# Run tests with coverage
-npm run test:coverage
+# Testing
+npm test                # Run tests
+npm run test:watch      # Run tests in watch mode
+npm run test:coverage   # Run tests with coverage
+
+# Code Quality
+npm run lint            # Run ESLint
 ```
 
-### Manual Testing Checklist
+### Project Structure
 
-#### Core Functionality
+```
+WeatherGuard/
+├── src/
+│   ├── app/                 # Next.js pages and API routes
+│   ├── components/          # React components
+│   │   ├── Map/            # Map and location components
+│   │   ├── Safety/         # Emergency and safety features
+│   │   ├── UI/             # Reusable UI components
+│   │   └── Weather/        # Weather-related components
+│   ├── lib/                # Utilities and services
+│   └── types/              # TypeScript definitions
+├── server/                 # Express.js backend
+└── __tests__/             # Test files
+```
+
+### Testing Checklist
+
 - [ ] Map loads and displays correctly
-- [ ] Location search works
-- [ ] Weather data displays
-- [ ] Alerts show on map
-- [ ] Location management CRUD operations
-- [ ] Contact management CRUD operations
+- [ ] Location search works globally
+- [ ] Weather data displays properly
 - [ ] Safety check-ins submit successfully
-- [ ] Emergency alerts display
+- [ ] Mobile responsiveness
+- [ ] Offline functionality
+- [ ] Emergency alert system
 
-#### Mobile Responsiveness
-- [ ] App works on mobile browsers
-- [ ] Touch interactions work properly
-- [ ] Text is readable on small screens
-- [ ] Buttons are appropriately sized
-- [ ] Map controls are accessible
-
-#### Error Handling
-- [ ] Graceful degradation when APIs fail
-- [ ] Offline functionality works
-- [ ] Error messages are user-friendly
-- [ ] Network failures are handled
-
-## 📚 API Documentation
+## 📚 API Reference
 
 ### Weather Endpoints
 ```
 GET /api/weather/current?lat={lat}&lng={lng}
 GET /api/weather/alerts/active
-GET /api/weather/alerts?lat={lat}&lng={lng}&radius={km}
 GET /api/weather/meteostat/monthly?lat={lat}&lng={lng}&year={year}&month={month}
 ```
 
@@ -303,9 +259,6 @@ GET /api/locations/static/user/{userId}
 POST /api/locations/static
 PUT /api/locations/static/{id}
 DELETE /api/locations/static/{id}
-
-GET /api/locations/live/user/{userId}/active
-POST /api/locations/live
 ```
 
 ### Safety Endpoints
@@ -325,125 +278,148 @@ DELETE /api/contacts/{id}
 
 ## 🚀 Deployment
 
-### Production Build
-```bash
-# Build the application
-npm run build
+### Quick Deploy
 
-# Start production server
-npm start
-
-# Build backend
-npm run build:server
-```
-
-### Environment Setup
-1. Set `NODE_ENV=production`
-2. Configure production database
-3. Set up API keys
-4. Configure CORS for production domain
-5. Set up SSL/HTTPS
-
-### Deployment Options
-- **Vercel**: Automatic deployment from Git
-- **Netlify**: Static site with serverless functions
-- **Docker**: Containerized deployment
-- **Traditional VPS**: Node.js server deployment
-
-## 🤝 Contributing
-
-### Team NPC
-
-**Core Development Team:**
-- **Aditya** - Frontend Developer & User Experience
-- **Sunayana** - Lead Developer & Project Architect
-- **Rohiith** - UI/UX Developer & Design Systems
-
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Make your changes with proper testing
-4. Add tests for new functionality
-5. Ensure all tests pass (`npm test`)
-6. Commit your changes (`git commit -m 'feat: Add amazing feature'`)
-7. Push to the branch (`git push origin feature/amazing-feature`)
-8. Submit a pull request
-
-### Code Style & Standards
-- **TypeScript**: Use TypeScript for type safety and better development experience
-- **ESLint**: Follow the project's ESLint configuration for code quality
-- **Prettier**: Use Prettier for consistent code formatting
-- **Commit Messages**: Follow conventional commit format (`feat:`, `fix:`, `docs:`, etc.)
-- **Testing**: Write comprehensive tests for new features and bug fixes
-- **Documentation**: Update documentation for any new features or API changes
-
-### Getting Started for Contributors
-1. **Setup Development Environment**:
-   ```bash
-   git clone https://github.com/team-npc/WeatherGuard.git
-   cd WeatherGuard
-   npm install
-   cp .env.example .env.local
-   # Add your API keys to .env.local
-   npm run dev
-   ```
-
-2. **Run Tests**:
-   ```bash
-   npm test
-   npm run test:coverage
-   ```
-
-3. **Build for Production**:
+1. **Build the application**
    ```bash
    npm run build
    ```
 
-## 📄 License
+2. **Start production server**
+   ```bash
+   npm start
+   ```
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+### Deploy to Vercel (Recommended)
 
-## 🆘 Support
+1. **Push to GitHub**
+2. **Connect repository to Vercel**
+3. **Set environment variables in Vercel dashboard**
+4. **Deploy automatically**
+
+### Deploy to Netlify
+
+1. **Build command**: `npm run build`
+2. **Publish directory**: `out` (after configuring static export)
+3. **Set environment variables**
+
+### Environment Variables for Production
+
+```bash
+NODE_ENV=production
+NEXT_PUBLIC_OPENWEATHER_API_KEY=your_key
+NEXT_PUBLIC_WEATHERAPI_KEY=your_key
+# Add other API keys as needed
+```
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help make WeatherGuard better:
+
+### Development Setup
+1. **Fork the repository**
+2. **Clone your fork**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/WeatherGuard.git
+   cd WeatherGuard
+   ```
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+4. **Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+5. **Start developing**
+   ```bash
+   npm run dev
+   ```
+
+### Contribution Guidelines
+- **Write Tests**: Add tests for new features
+- **Follow Code Style**: Use ESLint and Prettier
+- **Update Documentation**: Keep README and comments current
+- **Small PRs**: Make focused, reviewable changes
+- **Descriptive Commits**: Use conventional commit messages
+
+### Commit Message Format
+```
+feat: add location sharing feature
+fix: resolve map loading issue
+docs: update API documentation
+test: add safety feature tests
+```
+
+### Pull Request Process
+1. **Test Your Changes**: Ensure all tests pass
+2. **Update Documentation**: If needed
+3. **Create Pull Request**: With clear description
+4. **Code Review**: Address feedback
+5. **Merge**: After approval
+
+## 📞 Support & Help
 
 ### Common Issues
 
-**Map not loading**
+**🗺️ Map not loading**
 - Check browser console for errors
 - Ensure geolocation permission is granted
 - Verify internet connection
 
-**Weather data not updating**
-- Check API key configuration
-- Verify API rate limits
+**🌦️ Weather data not updating**
+- Check API key configuration in `.env.local`
+- Verify API rate limits haven't been exceeded
 - Check browser network tab for failed requests
 
-**Location sharing not working**
-- Ensure HTTPS (required for geolocation)
+**📍 Location sharing not working**
+- Ensure HTTPS connection (required for geolocation)
 - Check browser geolocation permissions
-- Verify WebSocket connection
+- Try refreshing the page
 
 ### Getting Help
-- Check the GitHub Issues page
-- Review the troubleshooting guide
-- Contact the development team
+- **📖 Documentation**: Check this README
+- **🐛 Issues**: [GitHub Issues](https://github.com/Sunayana225/WeatherGuard/issues)
+- **💬 Discussions**: [GitHub Discussions](https://github.com/Sunayana225/WeatherGuard/discussions)
+- **📧 Email**: yakkalasunayana1605@gmail.com
 
-## 🔮 Future Enhancements
+## 🔮 Roadmap
 
-### Planned Features
-- **Mobile App**: React Native implementation
-- **Push Notifications**: Real-time emergency alerts
-- **Geofencing**: Location-based automatic alerts
-- **Advanced Analytics**: Safety pattern analysis
-- **Integration APIs**: Third-party emergency services
-- **Multi-language Support**: Internationalization
+### Upcoming Features
+- **📱 Mobile App**: React Native implementation
+- **🔔 Push Notifications**: Real-time emergency alerts
+- **🗺️ Geofencing**: Location-based automatic alerts
+- **📊 Analytics**: Personal safety insights
+- **🌐 Offline Maps**: Enhanced offline functionality
+- **🏥 Emergency Services**: Direct integration with local services
 
 ### Technical Improvements
-- **Performance**: Optimize map rendering and data loading
-- **Accessibility**: Enhanced screen reader support
-- **Security**: End-to-end encryption for location data
-- **Scalability**: Database optimization and caching
-- **Monitoring**: Application performance monitoring
+- **⚡ Performance**: Faster map loading and data processing
+- **♿ Accessibility**: Enhanced screen reader support
+- **🔒 Security**: End-to-end encryption for sensitive data
+- **📈 Scalability**: Cloud database and real-time sync
+- **🌍 Internationalization**: Multi-language support
+
+## 👥 Team
+
+**Developed by Team NPC:**
+- **Sunayana Yakkala** - Lead Developer & Project Architect
+- **Aditya** - Frontend Developer & User Experience  
+- **Rohiith** - UI/UX Developer & Design Systems
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Weather Data**: OpenWeatherMap, WeatherAPI, National Weather Service
+- **Mapping**: Leaflet and OpenStreetMap contributors
+- **Icons**: Lucide React icon library
+- **Community**: All contributors and testers
 
 ---
+
+**⚡ Don't wait for the next emergency - Be prepared with WeatherGuard!**
 
 Built with ❤️ for emergency preparedness and family safety.
